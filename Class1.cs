@@ -14,6 +14,7 @@ namespace TED
         public int views { get; set; }
         public int likes { get; set; }
         public string link { get; set; }
+        public string idontknow;
 
         public TedData(string t, string a, string d, int v, int lik, string lin)
         {
@@ -23,6 +24,7 @@ namespace TED
             views = v;
             likes = lik;
             link = lin;
+            idontknow = "";
         }
     }
 }
